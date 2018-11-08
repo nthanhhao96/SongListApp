@@ -15,10 +15,10 @@ import 'rxjs/add/operator/catch';
 
 @IonicPage()
 @Component({
-  selector: 'page-home',
-  templateUrl: 'home.html',
+  selector: 'page-song-list',
+  templateUrl: 'song-list.html',
 })
-export class HomePage {
+export class SongListPage {
 
   songsList$: Observable<Song[]>;
   bandsList$: Observable<Band[]>;

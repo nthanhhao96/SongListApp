@@ -1,6 +1,8 @@
 {
   "name": "SongList",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular",
   "pro_id": "ac6f143a"
 }
